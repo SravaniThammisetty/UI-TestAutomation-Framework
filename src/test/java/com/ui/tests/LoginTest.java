@@ -1,20 +1,25 @@
 package com.ui.tests;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+
+import static com.constants.Browser.*;
+
+import static org.testng.Assert.*;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.ui.pages.HomePage;
 
 public class LoginTest {
-
-	public static void main(String[] args) {
-		WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.get("http://automationpractice.pl");
-        driver.findElement(By.className(".login")).click();
-        driver.findElement(By.className(".login")).sendKeys("admin");
-
-        driver.close();
-
+	
+	private HomePage homePage;
+	
+	@BeforeTest(description = "Load the Homepage of the website")
+	public void setUp() {
+		homePage = new HomePage(CHROME);
 	}
-
+	
+	@Test (description = "Verifies that the valid user is able to login into the application", groups = {"e2e", "sanity"})
+    public void loginTest() {
+        assertEquals(homePage.gotoLoginPage().doLoginWith("ropixet623@gamebcs.com", "password").getUserName(), "Sravani T");
+    }
 }
