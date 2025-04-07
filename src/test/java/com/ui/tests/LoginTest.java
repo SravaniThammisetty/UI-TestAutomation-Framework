@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.ui.pages.HomePage;
+import com.ui.pojos.User;
 
 public class LoginTest {
 	
@@ -18,8 +19,10 @@ public class LoginTest {
 		homePage = new HomePage(CHROME);
 	}
 	
-	@Test (description = "Verifies that the valid user is able to login into the application", groups = {"e2e", "sanity"})
-    public void loginTest() {
-        assertEquals(homePage.gotoLoginPage().doLoginWith("ropixet623@gamebcs.com", "password").getUserName(), "Sravani T");
+	@Test (description = "Verifies that the valid user is able to login into the application", groups = {"e2e", "sanity"},
+			dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LogiTestDataProvider")
+	
+    public void loginTest(User user) {
+        assertEquals(homePage.gotoLoginPage().doLoginWith(user.getEmailAddress(),user.getPassword()).getUserName(), "Sravani T");
     }
 }
