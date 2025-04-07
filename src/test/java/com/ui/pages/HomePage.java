@@ -4,8 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import com.constants.Browser;
-import static com.constants.Environment.*;
+import static com.constants.Env.*;
 import com.utility.BrowserUtilities;
+import com.utility.JsonUtility;
+
 import static com.utility.PropertiesUtil.*;
 
 public final class HomePage extends BrowserUtilities {
@@ -23,7 +25,7 @@ public final class HomePage extends BrowserUtilities {
 	
 	public HomePage(Browser browserName) {
 		super(browserName);
-		goToWebSite(readProperty(QA, "URL"));
+		goToWebSite(JsonUtility.readJson(QA));
 	}
 	
 	public LoginPage gotoLoginPage() {  

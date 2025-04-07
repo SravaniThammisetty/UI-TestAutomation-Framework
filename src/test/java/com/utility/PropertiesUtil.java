@@ -7,16 +7,16 @@ import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.Properties;
 
-import com.constants.Environment;
+import com.constants.Env;
 
 public class PropertiesUtil {
 	//read properties file
 	
-	public static String readProperty(Environment environment, String propertyName) {
+	public static String readProperty(Env env, String propertyName) {
 		
 		System.out.println(System.getProperty("user.dir"));
 		
-		File propFile = Paths.get(System.getProperty("user.dir"), "Config", environment + ".properties").toFile();
+		File propFile = Paths.get(System.getProperty("user.dir"), "Config", env + ".properties").toFile();
 		FileReader fileReader = null;
 		Properties properties = new Properties();
 		try {
