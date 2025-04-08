@@ -76,6 +76,10 @@ public abstract class BrowserUtilities {
     	WebElement element = driver.findElement(locator);
     	return element.getText();
     }
+    
+    public void quitBrowser() {
+        driver.quit();
+    }
 
 }
 

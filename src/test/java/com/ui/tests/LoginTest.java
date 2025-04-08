@@ -16,13 +16,19 @@ public class LoginTest {
 	
 	@BeforeTest(description = "Load the Homepage of the website")
 	public void setUp() {
-		homePage = new HomePage(CHROME);
+		homePage = new HomePage(FIREFOX);
 	}
 	
 	@Test (description = "Verifies that the valid user is able to login into the application", groups = {"e2e", "sanity"},
 			dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LogiTestDataProvider")
-	
     public void loginTest(User user) {
         assertEquals(homePage.gotoLoginPage().doLoginWith(user.getEmailAddress(),user.getPassword()).getUserName(), "Sravani T");
+    }
+	
+	@Test (description = "Verifies that the valid user is able to login into the application", groups = {"e2e", "sanity"},
+			dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LoginTestCSVDataProvider")
+    public void loginCSVTest(User user) {
+        assertEquals(homePage.gotoLoginPage().doLoginWith(user.getEmailAddress(),user.getPassword()).getUserName(), "Sravani T");
+//        homePage.quitBrowser();
     }
 }
