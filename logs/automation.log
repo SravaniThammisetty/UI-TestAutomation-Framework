@@ -1,37 +1,75 @@
-2025-04-12 00:57:55 [main] INFO com.ui.listeners.TestListener::onStart::35 Test Suite Started 
-2025-04-12 00:57:55 [main] INFO com.ui.pages.HomePage::<init>::44 Launching the Browser for CHROME 
-2025-04-12 00:58:00 [main] INFO com.ui.pages.HomePage::goToWebSite::64 Visiting the website http://automationpractice.pl 
-2025-04-12 00:58:06 [main] INFO com.ui.tests.LoginTest::setUp::27 Load the Homepage of the website 
-2025-04-12 00:58:06 [main] INFO com.ui.listeners.TestListener::onTestStart::16 loginCSVTest 
-2025-04-12 00:58:06 [main] INFO com.ui.listeners.TestListener::onTestStart::17 Verifies that the valid user is able to login into the application 
-2025-04-12 00:58:06 [main] INFO com.ui.listeners.TestListener::onTestStart::18 [e2e, sanity] 
-2025-04-12 00:58:06 [main] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
-2025-04-12 00:58:06 [main] INFO com.ui.pages.HomePage::clickOn::74 Finding element with the locatorBy.cssSelector: .login 
-2025-04-12 00:58:06 [main] INFO com.ui.pages.HomePage::clickOn::76 Element Found and now performing Click 
-2025-04-12 00:58:07 [main] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #email 
-2025-04-12 00:58:07 [main] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text ropixet623@gamebcs.com 
-2025-04-12 00:58:08 [main] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #passwd 
-2025-04-12 00:58:08 [main] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text password 
-2025-04-12 00:58:08 [main] INFO com.ui.pages.LoginPage::clickOn::74 Finding element with the locatorBy.cssSelector: #SubmitLogin 
-2025-04-12 00:58:08 [main] INFO com.ui.pages.LoginPage::clickOn::76 Element Found and now performing Click 
-2025-04-12 00:58:09 [main] INFO com.ui.pages.MyAccountPage::getVisibleText::88 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
-2025-04-12 00:58:09 [main] INFO com.ui.pages.MyAccountPage::getVisibleText::90 Element Found and now retruning the visible text Sravani T 
-2025-04-12 00:58:09 [main] INFO com.ui.listeners.TestListener::onTestSuccess::22 LoginTest.loginCSVTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@5be46f9d] PASSED 
-2025-04-12 00:58:09 [main] INFO com.ui.pages.HomePage::<init>::44 Launching the Browser for CHROME 
-2025-04-12 00:58:12 [main] INFO com.ui.pages.HomePage::goToWebSite::64 Visiting the website http://automationpractice.pl 
-2025-04-12 00:58:18 [main] INFO com.ui.tests.LoginTest::setUp::27 Load the Homepage of the website 
-2025-04-12 00:58:18 [main] INFO com.ui.listeners.TestListener::onTestStart::16 loginCSVTest 
-2025-04-12 00:58:18 [main] INFO com.ui.listeners.TestListener::onTestStart::17 Verifies that the valid user is able to login into the application 
-2025-04-12 00:58:18 [main] INFO com.ui.listeners.TestListener::onTestStart::18 [e2e, sanity] 
-2025-04-12 00:58:18 [main] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
-2025-04-12 00:58:18 [main] INFO com.ui.pages.HomePage::clickOn::74 Finding element with the locatorBy.cssSelector: .login 
-2025-04-12 00:58:18 [main] INFO com.ui.pages.HomePage::clickOn::76 Element Found and now performing Click 
-2025-04-12 00:58:19 [main] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #email 
-2025-04-12 00:58:19 [main] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text tammisetty@gmail.com 
-2025-04-12 00:58:19 [main] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #passwd 
-2025-04-12 00:58:19 [main] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text password 
-2025-04-12 00:58:20 [main] INFO com.ui.pages.LoginPage::clickOn::74 Finding element with the locatorBy.cssSelector: #SubmitLogin 
-2025-04-12 00:58:20 [main] INFO com.ui.pages.LoginPage::clickOn::76 Element Found and now performing Click 
-2025-04-12 00:58:20 [main] INFO com.ui.pages.MyAccountPage::getVisibleText::88 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
-2025-04-12 00:58:21 [main] WARN com.ui.listeners.TestListener::onTestSkipped::31 LoginTest.loginCSVTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@5be46f9d] SKIPPED 
-2025-04-12 00:58:21 [main] INFO com.ui.pages.HomePage::<init>::44 Launching the Browser for CHROME 
+2025-04-20 15:21:25 [main] INFO com.ui.listeners.TestListener::onStart::48 Test Suite Started 
+2025-04-20 15:21:26 [main] INFO com.ui.pages.HomePage::<init>::44 Launching the Browser for CHROME 
+2025-04-20 15:21:37 [main] INFO com.ui.pages.HomePage::goToWebSite::64 Visiting the website http://automationpractice.pl 
+2025-04-20 15:21:48 [main] INFO com.ui.tests.LoginTest::setUp::27 Load the Homepage of the website 
+2025-04-20 15:21:48 [main] INFO com.ui.listeners.TestListener::onTestStart::25 loginExcelTest 
+2025-04-20 15:21:48 [main] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies that the valid user is able to login into the application 
+2025-04-20 15:21:48 [main] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
+2025-04-20 15:21:48 [main] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
+2025-04-20 15:21:48 [main] INFO com.ui.pages.HomePage::clickOn::74 Finding element with the locatorBy.cssSelector: .login 
+2025-04-20 15:21:48 [main] INFO com.ui.pages.HomePage::clickOn::76 Element Found and now performing Click 
+2025-04-20 15:21:49 [main] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #email 
+2025-04-20 15:21:49 [main] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text ropixet623@gamebcs.com 
+2025-04-20 15:21:49 [main] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #passwd 
+2025-04-20 15:21:49 [main] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text password 
+2025-04-20 15:21:49 [main] INFO com.ui.pages.LoginPage::clickOn::74 Finding element with the locatorBy.cssSelector: #SubmitLogin 
+2025-04-20 15:21:49 [main] INFO com.ui.pages.LoginPage::clickOn::76 Element Found and now performing Click 
+2025-04-20 15:21:49 [main] INFO com.ui.pages.MyAccountPage::getVisibleText::88 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
+2025-04-20 15:21:51 [main] INFO com.ui.pages.MyAccountPage::getVisibleText::90 Element Found and now retruning the visible text Sravani T 
+2025-04-20 15:21:51 [main] WARN com.ui.listeners.TestListener::onTestSkipped::43 LoginTest.loginExcelTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@51fadaff] SKIPPED 
+2025-04-20 15:21:51 [main] INFO com.ui.pages.HomePage::<init>::44 Launching the Browser for CHROME 
+2025-04-20 15:21:53 [main] INFO com.ui.pages.HomePage::goToWebSite::64 Visiting the website http://automationpractice.pl 
+2025-04-20 15:22:04 [main] INFO com.ui.tests.LoginTest::setUp::27 Load the Homepage of the website 
+2025-04-20 15:22:04 [main] INFO com.ui.listeners.TestListener::onTestStart::25 loginExcelTest 
+2025-04-20 15:22:04 [main] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies that the valid user is able to login into the application 
+2025-04-20 15:22:04 [main] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
+2025-04-20 15:22:04 [main] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
+2025-04-20 15:22:04 [main] INFO com.ui.pages.HomePage::clickOn::74 Finding element with the locatorBy.cssSelector: .login 
+2025-04-20 15:22:04 [main] INFO com.ui.pages.HomePage::clickOn::76 Element Found and now performing Click 
+2025-04-20 15:22:05 [main] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #email 
+2025-04-20 15:22:05 [main] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text ropixet623@gamebcs.com 
+2025-04-20 15:22:05 [main] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #passwd 
+2025-04-20 15:22:05 [main] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text password 
+2025-04-20 15:22:05 [main] INFO com.ui.pages.LoginPage::clickOn::74 Finding element with the locatorBy.cssSelector: #SubmitLogin 
+2025-04-20 15:22:05 [main] INFO com.ui.pages.LoginPage::clickOn::76 Element Found and now performing Click 
+2025-04-20 15:22:05 [main] INFO com.ui.pages.MyAccountPage::getVisibleText::88 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
+2025-04-20 15:22:06 [main] INFO com.ui.pages.MyAccountPage::getVisibleText::90 Element Found and now retruning the visible text Sravani T 
+2025-04-20 15:22:06 [main] WARN com.ui.listeners.TestListener::onTestSkipped::43 LoginTest.loginExcelTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@51fadaff] SKIPPED 
+2025-04-20 15:22:06 [main] INFO com.ui.pages.HomePage::<init>::44 Launching the Browser for CHROME 
+2025-04-20 15:22:08 [main] INFO com.ui.pages.HomePage::goToWebSite::64 Visiting the website http://automationpractice.pl 
+2025-04-20 15:22:18 [main] INFO com.ui.tests.LoginTest::setUp::27 Load the Homepage of the website 
+2025-04-20 15:22:18 [main] INFO com.ui.listeners.TestListener::onTestStart::25 loginExcelTest 
+2025-04-20 15:22:18 [main] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies that the valid user is able to login into the application 
+2025-04-20 15:22:18 [main] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
+2025-04-20 15:22:18 [main] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
+2025-04-20 15:22:18 [main] INFO com.ui.pages.HomePage::clickOn::74 Finding element with the locatorBy.cssSelector: .login 
+2025-04-20 15:22:18 [main] INFO com.ui.pages.HomePage::clickOn::76 Element Found and now performing Click 
+2025-04-20 15:22:20 [main] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #email 
+2025-04-20 15:22:20 [main] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text ropixet623@gamebcs.com 
+2025-04-20 15:22:20 [main] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #passwd 
+2025-04-20 15:22:20 [main] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text password 
+2025-04-20 15:22:20 [main] INFO com.ui.pages.LoginPage::clickOn::74 Finding element with the locatorBy.cssSelector: #SubmitLogin 
+2025-04-20 15:22:20 [main] INFO com.ui.pages.LoginPage::clickOn::76 Element Found and now performing Click 
+2025-04-20 15:22:20 [main] INFO com.ui.pages.MyAccountPage::getVisibleText::88 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
+2025-04-20 15:22:21 [main] INFO com.ui.pages.MyAccountPage::getVisibleText::90 Element Found and now retruning the visible text Sravani T 
+2025-04-20 15:22:21 [main] WARN com.ui.listeners.TestListener::onTestSkipped::43 LoginTest.loginExcelTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@51fadaff] SKIPPED 
+2025-04-20 15:22:21 [main] INFO com.ui.pages.HomePage::<init>::44 Launching the Browser for CHROME 
+2025-04-20 15:22:23 [main] INFO com.ui.pages.HomePage::goToWebSite::64 Visiting the website http://automationpractice.pl 
+2025-04-20 15:22:32 [main] INFO com.ui.tests.LoginTest::setUp::27 Load the Homepage of the website 
+2025-04-20 15:22:32 [main] INFO com.ui.listeners.TestListener::onTestStart::25 loginExcelTest 
+2025-04-20 15:22:32 [main] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies that the valid user is able to login into the application 
+2025-04-20 15:22:32 [main] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
+2025-04-20 15:22:32 [main] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
+2025-04-20 15:22:32 [main] INFO com.ui.pages.HomePage::clickOn::74 Finding element with the locatorBy.cssSelector: .login 
+2025-04-20 15:22:32 [main] INFO com.ui.pages.HomePage::clickOn::76 Element Found and now performing Click 
+2025-04-20 15:22:33 [main] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #email 
+2025-04-20 15:22:33 [main] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text ropixet623@gamebcs.com 
+2025-04-20 15:22:33 [main] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #passwd 
+2025-04-20 15:22:33 [main] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text password 
+2025-04-20 15:22:33 [main] INFO com.ui.pages.LoginPage::clickOn::74 Finding element with the locatorBy.cssSelector: #SubmitLogin 
+2025-04-20 15:22:34 [main] INFO com.ui.pages.LoginPage::clickOn::76 Element Found and now performing Click 
+2025-04-20 15:22:34 [main] INFO com.ui.pages.MyAccountPage::getVisibleText::88 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
+2025-04-20 15:22:35 [main] INFO com.ui.pages.MyAccountPage::getVisibleText::90 Element Found and now retruning the visible text Sravani T 
+2025-04-20 15:22:35 [main] ERROR com.ui.listeners.TestListener::onTestFailure::37 LoginTest.loginExcelTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@51fadaff] FAILED 
+2025-04-20 15:22:35 [main] ERROR com.ui.listeners.TestListener::onTestFailure::38 expected [Sravani T1] but found [Sravani T] 
+2025-04-20 15:22:35 [main] INFO com.ui.listeners.TestListener::onFinish::53 Test Suite Completed 
