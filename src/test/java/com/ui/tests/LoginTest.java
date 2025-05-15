@@ -16,16 +16,9 @@ import com.ui.pojos.User;
 import com.utility.LoggerUtility;
 
 @Listeners({com.ui.listeners.TestListener.class})
-public class LoginTest {
+public class LoginTest extends TestBase{
 	
-	private HomePage homePage;
 	Logger logger = LoggerUtility.getLogger(this.getClass());
-	
-	@BeforeMethod(description = "Load the Homepage of the website")
-	public void setUp() {
-		homePage = new HomePage(CHROME);
-		logger.info("Load the Homepage of the website");
-	}
 	
 	@Test (description = "Verifies that the valid user is able to login into the application", groups = {"e2e", "sanity"},
 			dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LogiTestDataProvider",

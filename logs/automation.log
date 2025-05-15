@@ -1,161 +1,146 @@
-2025-04-20 20:35:18 [main] INFO com.ui.listeners.TestListener::onStart::49 Test Suite Started 
-2025-04-20 20:35:19 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::<init>::44 Launching the Browser for CHROME 
-2025-04-20 20:35:19 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::<init>::44 Launching the Browser for CHROME 
-2025-04-20 20:35:19 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.HomePage::<init>::44 Launching the Browser for CHROME 
-2025-04-20 20:35:24 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.HomePage::goToWebSite::64 Visiting the website http://automationpractice.pl 
-2025-04-20 20:35:25 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::goToWebSite::64 Visiting the website http://automationpractice.pl 
-2025-04-20 20:35:25 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::goToWebSite::64 Visiting the website http://automationpractice.pl 
-2025-04-20 20:35:28 [TestNG-test-UI Automation Test-1] INFO com.ui.tests.LoginTest::setUp::27 Load the Homepage of the website 
-2025-04-20 20:35:28 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::25 loginCSVTest 
-2025-04-20 20:35:28 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies that the valid user is able to login into the application 
-2025-04-20 20:35:28 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
-2025-04-20 20:35:28 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
-2025-04-20 20:35:28 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::clickOn::74 Finding element with the locatorBy.cssSelector: .login 
-2025-04-20 20:35:31 [TestNG-test-UI Automation Test-3] INFO com.ui.tests.LoginTest::setUp::27 Load the Homepage of the website 
-2025-04-20 20:35:31 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::25 loginTest 
-2025-04-20 20:35:31 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies that the valid user is able to login into the application 
-2025-04-20 20:35:31 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
-2025-04-20 20:35:31 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
-2025-04-20 20:35:31 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::clickOn::74 Finding element with the locatorBy.cssSelector: .login 
-2025-04-20 20:35:31 [TestNG-test-UI Automation Test-2] INFO com.ui.tests.LoginTest::setUp::27 Load the Homepage of the website 
-2025-04-20 20:35:31 [TestNG-test-UI Automation Test-2] INFO com.ui.listeners.TestListener::onTestStart::25 loginExcelTest 
-2025-04-20 20:35:31 [TestNG-test-UI Automation Test-2] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies that the valid user is able to login into the application 
-2025-04-20 20:35:31 [TestNG-test-UI Automation Test-2] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
-2025-04-20 20:35:31 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
-2025-04-20 20:35:31 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.HomePage::clickOn::74 Finding element with the locatorBy.cssSelector: .login 
-2025-04-20 20:35:31 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.HomePage::clickOn::76 Element Found and now performing Click 
-2025-04-20 20:35:31 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::clickOn::76 Element Found and now performing Click 
-2025-04-20 20:35:31 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::clickOn::76 Element Found and now performing Click 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #email 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #email 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text ropixet623@gamebcs.com 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text sravani@gmail.com 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #passwd 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text password 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #passwd 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text password 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.LoginPage::clickOn::74 Finding element with the locatorBy.cssSelector: #SubmitLogin 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.LoginPage::clickOn::76 Element Found and now performing Click 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::74 Finding element with the locatorBy.cssSelector: #SubmitLogin 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::76 Element Found and now performing Click 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.MyAccountPage::getVisibleText::88 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.MyAccountPage::getVisibleText::88 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #email 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text ropixet623@gamebcs.com 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #passwd 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text password 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::74 Finding element with the locatorBy.cssSelector: #SubmitLogin 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::76 Element Found and now performing Click 
-2025-04-20 20:35:32 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::88 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
-2025-04-20 20:35:33 [TestNG-test-UI Automation Test-3] WARN com.ui.listeners.TestListener::onTestSkipped::44 LoginTest.loginTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@172b013] SKIPPED 
-2025-04-20 20:35:33 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::<init>::44 Launching the Browser for CHROME 
-2025-04-20 20:35:33 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.MyAccountPage::getVisibleText::90 Element Found and now retruning the visible text Sravani T 
-2025-04-20 20:35:33 [TestNG-test-UI Automation Test-2] WARN com.ui.listeners.TestListener::onTestSkipped::44 LoginTest.loginExcelTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@172b013] SKIPPED 
-2025-04-20 20:35:33 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.HomePage::<init>::44 Launching the Browser for CHROME 
-2025-04-20 20:35:33 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::90 Element Found and now retruning the visible text Sravani T 
-2025-04-20 20:35:33 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestSuccess::32 LoginTest.loginCSVTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@172b013] PASSED 
-2025-04-20 20:35:33 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::<init>::44 Launching the Browser for CHROME 
-2025-04-20 20:35:36 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::goToWebSite::64 Visiting the website http://automationpractice.pl 
-2025-04-20 20:35:37 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.HomePage::goToWebSite::64 Visiting the website http://automationpractice.pl 
-2025-04-20 20:35:37 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::goToWebSite::64 Visiting the website http://automationpractice.pl 
-2025-04-20 20:35:42 [TestNG-test-UI Automation Test-3] INFO com.ui.tests.LoginTest::setUp::27 Load the Homepage of the website 
-2025-04-20 20:35:42 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::25 loginTest 
-2025-04-20 20:35:42 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies that the valid user is able to login into the application 
-2025-04-20 20:35:42 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
-2025-04-20 20:35:42 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
-2025-04-20 20:35:42 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::clickOn::74 Finding element with the locatorBy.cssSelector: .login 
-2025-04-20 20:35:42 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::clickOn::76 Element Found and now performing Click 
-2025-04-20 20:35:43 [TestNG-test-UI Automation Test-2] INFO com.ui.tests.LoginTest::setUp::27 Load the Homepage of the website 
-2025-04-20 20:35:43 [TestNG-test-UI Automation Test-2] INFO com.ui.listeners.TestListener::onTestStart::25 loginExcelTest 
-2025-04-20 20:35:43 [TestNG-test-UI Automation Test-2] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies that the valid user is able to login into the application 
-2025-04-20 20:35:43 [TestNG-test-UI Automation Test-2] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
-2025-04-20 20:35:43 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
-2025-04-20 20:35:43 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.HomePage::clickOn::74 Finding element with the locatorBy.cssSelector: .login 
-2025-04-20 20:35:43 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.HomePage::clickOn::76 Element Found and now performing Click 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #email 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text sravani@gmail.com 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #passwd 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text password 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::74 Finding element with the locatorBy.cssSelector: #SubmitLogin 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::76 Element Found and now performing Click 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-1] INFO com.ui.tests.LoginTest::setUp::27 Load the Homepage of the website 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::25 loginCSVTest 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies that the valid user is able to login into the application 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::clickOn::74 Finding element with the locatorBy.cssSelector: .login 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::clickOn::76 Element Found and now performing Click 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #email 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text ropixet623@gamebcs.com 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.MyAccountPage::getVisibleText::88 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #passwd 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text password 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-3] WARN com.ui.listeners.TestListener::onTestSkipped::44 LoginTest.loginTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@172b013] SKIPPED 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::<init>::44 Launching the Browser for CHROME 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.LoginPage::clickOn::74 Finding element with the locatorBy.cssSelector: #SubmitLogin 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.LoginPage::clickOn::76 Element Found and now performing Click 
-2025-04-20 20:35:44 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.MyAccountPage::getVisibleText::88 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
-2025-04-20 20:35:45 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #email 
-2025-04-20 20:35:45 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text tammisetty@gmail.com 
-2025-04-20 20:35:45 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #passwd 
-2025-04-20 20:35:45 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text password 
-2025-04-20 20:35:45 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::74 Finding element with the locatorBy.cssSelector: #SubmitLogin 
-2025-04-20 20:35:45 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::76 Element Found and now performing Click 
-2025-04-20 20:35:45 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::88 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
-2025-04-20 20:35:46 [TestNG-test-UI Automation Test-2] INFO com.ui.pages.MyAccountPage::getVisibleText::90 Element Found and now retruning the visible text Sravani T 
-2025-04-20 20:35:46 [TestNG-test-UI Automation Test-2] ERROR com.ui.listeners.TestListener::onTestFailure::37 LoginTest.loginExcelTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@172b013] FAILED 
-2025-04-20 20:35:46 [TestNG-test-UI Automation Test-2] ERROR com.ui.listeners.TestListener::onTestFailure::38 expected [Sravani T1] but found [Sravani T] 
-2025-04-20 20:35:46 [TestNG-test-UI Automation Test-1] ERROR com.ui.listeners.TestListener::onTestFailure::37 LoginTest.loginCSVTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@172b013] FAILED 
-2025-04-20 20:35:46 [TestNG-test-UI Automation Test-1] ERROR com.ui.listeners.TestListener::onTestFailure::38 no such element: Unable to locate element: {"method":"css selector","selector":"a[title='View my customer account'] span"}
-  (Session info: chrome=135.0.7049.96)
+2025-04-27 20:31:39 [main] INFO com.ui.listeners.TestListener::onStart::61 Test Suite Started 
+2025-04-27 20:31:39 [TestNG-test-UI Automation Test-1] INFO com.ui.tests.LoginTest::setUp::19 Load the Homepage of the website 
+2025-04-27 20:31:39 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::<init>::52 Launching the Browser for CHROME 
+2025-04-27 20:31:39 [TestNG-test-UI Automation Test-2] ERROR com.ui.listeners.TestListener::onTestFailure::39 LoginTest.loginExcelTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@2796aeae] FAILED 
+2025-04-27 20:31:39 [TestNG-test-UI Automation Test-2] ERROR com.ui.listeners.TestListener::onTestFailure::40 java.lang.NoSuchMethodError: 'org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream$Builder org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream.builder()' 
+2025-04-27 20:31:39 [TestNG-test-UI Automation Test-3] INFO com.ui.tests.LoginTest::setUp::19 Load the Homepage of the website 
+2025-04-27 20:31:39 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::<init>::52 Launching the Browser for CHROME 
+2025-04-27 20:31:42 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::goToWebSite::72 Visiting the website http://automationpractice.pl 
+2025-04-27 20:31:42 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::goToWebSite::72 Visiting the website http://automationpractice.pl 
+2025-04-27 20:31:50 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::27 loginTest 
+2025-04-27 20:31:50 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::28 Verifies that the valid user is able to login into the application 
+2025-04-27 20:31:50 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::29 [e2e, sanity] 
+2025-04-27 20:31:50 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::27 loginCSVTest 
+2025-04-27 20:31:50 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
+2025-04-27 20:31:50 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::28 Verifies that the valid user is able to login into the application 
+2025-04-27 20:31:50 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::clickOn::82 Finding element with the locatorBy.cssSelector: .login 
+2025-04-27 20:31:50 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::29 [e2e, sanity] 
+2025-04-27 20:31:50 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
+2025-04-27 20:31:50 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::clickOn::82 Finding element with the locatorBy.cssSelector: .login 
+2025-04-27 20:31:50 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::clickOn::84 Element Found and now performing Click 
+2025-04-27 20:31:50 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::clickOn::84 Element Found and now performing Click 
+2025-04-27 20:31:51 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::89 Finding element with the locatorBy.cssSelector: #email 
+2025-04-27 20:31:52 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::89 Finding element with the locatorBy.cssSelector: #email 
+2025-04-27 20:31:52 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::91 Element Found and now enter text sravani@gmail.com 
+2025-04-27 20:31:52 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::91 Element Found and now enter text ropixet623@gamebcs.com 
+2025-04-27 20:31:52 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::89 Finding element with the locatorBy.cssSelector: #passwd 
+2025-04-27 20:31:52 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::89 Finding element with the locatorBy.cssSelector: #passwd 
+2025-04-27 20:31:52 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::91 Element Found and now enter text password 
+2025-04-27 20:31:52 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::91 Element Found and now enter text password 
+2025-04-27 20:31:52 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::82 Finding element with the locatorBy.cssSelector: #SubmitLogin 
+2025-04-27 20:31:52 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::82 Finding element with the locatorBy.cssSelector: #SubmitLogin 
+2025-04-27 20:31:52 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::84 Element Found and now performing Click 
+2025-04-27 20:31:52 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::84 Element Found and now performing Click 
+2025-04-27 20:31:52 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::96 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
+2025-04-27 20:31:52 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.MyAccountPage::getVisibleText::96 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
+2025-04-27 20:31:52 [TestNG-test-UI Automation Test-3] WARN com.ui.listeners.TestListener::onTestSkipped::56 LoginTest.loginTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@2796aeae] SKIPPED 
+2025-04-27 20:31:52 [TestNG-test-UI Automation Test-3] INFO com.ui.tests.LoginTest::setUp::19 Load the Homepage of the website 
+2025-04-27 20:31:52 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::<init>::52 Launching the Browser for CHROME 
+2025-04-27 20:31:53 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::98 Element Found and now retruning the visible text Sravani T 
+2025-04-27 20:31:53 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestSuccess::34 LoginTest.loginCSVTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@2796aeae] PASSED 
+2025-04-27 20:31:53 [TestNG-test-UI Automation Test-1] INFO com.ui.tests.LoginTest::setUp::19 Load the Homepage of the website 
+2025-04-27 20:31:53 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::<init>::52 Launching the Browser for CHROME 
+2025-04-27 20:31:55 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::goToWebSite::72 Visiting the website http://automationpractice.pl 
+2025-04-27 20:31:55 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::goToWebSite::72 Visiting the website http://automationpractice.pl 
+2025-04-27 20:32:02 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::27 loginTest 
+2025-04-27 20:32:02 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::28 Verifies that the valid user is able to login into the application 
+2025-04-27 20:32:02 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::29 [e2e, sanity] 
+2025-04-27 20:32:02 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
+2025-04-27 20:32:02 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::clickOn::82 Finding element with the locatorBy.cssSelector: .login 
+2025-04-27 20:32:02 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::clickOn::84 Element Found and now performing Click 
+2025-04-27 20:32:02 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::27 loginCSVTest 
+2025-04-27 20:32:02 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::28 Verifies that the valid user is able to login into the application 
+2025-04-27 20:32:02 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::29 [e2e, sanity] 
+2025-04-27 20:32:02 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
+2025-04-27 20:32:02 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::clickOn::82 Finding element with the locatorBy.cssSelector: .login 
+2025-04-27 20:32:02 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::clickOn::84 Element Found and now performing Click 
+2025-04-27 20:32:03 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::89 Finding element with the locatorBy.cssSelector: #email 
+2025-04-27 20:32:03 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::89 Finding element with the locatorBy.cssSelector: #email 
+2025-04-27 20:32:03 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::91 Element Found and now enter text tammisetty@gmail.com 
+2025-04-27 20:32:03 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::91 Element Found and now enter text sravani@gmail.com 
+2025-04-27 20:32:03 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::89 Finding element with the locatorBy.cssSelector: #passwd 
+2025-04-27 20:32:04 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::91 Element Found and now enter text password 
+2025-04-27 20:32:04 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::89 Finding element with the locatorBy.cssSelector: #passwd 
+2025-04-27 20:32:04 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::91 Element Found and now enter text password 
+2025-04-27 20:32:04 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::82 Finding element with the locatorBy.cssSelector: #SubmitLogin 
+2025-04-27 20:32:04 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::84 Element Found and now performing Click 
+2025-04-27 20:32:04 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::82 Finding element with the locatorBy.cssSelector: #SubmitLogin 
+2025-04-27 20:32:04 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::84 Element Found and now performing Click 
+2025-04-27 20:32:04 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::96 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
+2025-04-27 20:32:04 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.MyAccountPage::getVisibleText::96 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
+2025-04-27 20:32:04 [TestNG-test-UI Automation Test-3] WARN com.ui.listeners.TestListener::onTestSkipped::56 LoginTest.loginTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@2796aeae] SKIPPED 
+2025-04-27 20:32:04 [TestNG-test-UI Automation Test-3] INFO com.ui.tests.LoginTest::setUp::19 Load the Homepage of the website 
+2025-04-27 20:32:04 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::<init>::52 Launching the Browser for CHROME 
+2025-04-27 20:32:04 [TestNG-test-UI Automation Test-1] WARN com.ui.listeners.TestListener::onTestSkipped::56 LoginTest.loginCSVTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@2796aeae] SKIPPED 
+2025-04-27 20:32:04 [TestNG-test-UI Automation Test-1] INFO com.ui.tests.LoginTest::setUp::19 Load the Homepage of the website 
+2025-04-27 20:32:04 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::<init>::52 Launching the Browser for CHROME 
+2025-04-27 20:32:07 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::goToWebSite::72 Visiting the website http://automationpractice.pl 
+2025-04-27 20:32:07 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::goToWebSite::72 Visiting the website http://automationpractice.pl 
+2025-04-27 20:32:18 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::27 loginCSVTest 
+2025-04-27 20:32:18 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::28 Verifies that the valid user is able to login into the application 
+2025-04-27 20:32:18 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::29 [e2e, sanity] 
+2025-04-27 20:32:18 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
+2025-04-27 20:32:18 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::27 loginTest 
+2025-04-27 20:32:18 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::clickOn::82 Finding element with the locatorBy.cssSelector: .login 
+2025-04-27 20:32:18 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::28 Verifies that the valid user is able to login into the application 
+2025-04-27 20:32:18 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::29 [e2e, sanity] 
+2025-04-27 20:32:18 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
+2025-04-27 20:32:18 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::clickOn::82 Finding element with the locatorBy.cssSelector: .login 
+2025-04-27 20:32:18 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.HomePage::clickOn::84 Element Found and now performing Click 
+2025-04-27 20:32:18 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::clickOn::84 Element Found and now performing Click 
+2025-04-27 20:32:19 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::89 Finding element with the locatorBy.cssSelector: #email 
+2025-04-27 20:32:19 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::91 Element Found and now enter text sravani@gmail.com 
+2025-04-27 20:32:19 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::89 Finding element with the locatorBy.cssSelector: #passwd 
+2025-04-27 20:32:19 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::91 Element Found and now enter text password 
+2025-04-27 20:32:19 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::82 Finding element with the locatorBy.cssSelector: #SubmitLogin 
+2025-04-27 20:32:19 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::84 Element Found and now performing Click 
+2025-04-27 20:32:19 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::89 Finding element with the locatorBy.cssSelector: #email 
+2025-04-27 20:32:19 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::91 Element Found and now enter text tammisetty@gmail.com 
+2025-04-27 20:32:19 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::89 Finding element with the locatorBy.cssSelector: #passwd 
+2025-04-27 20:32:20 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::91 Element Found and now enter text password 
+2025-04-27 20:32:20 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::82 Finding element with the locatorBy.cssSelector: #SubmitLogin 
+2025-04-27 20:32:20 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::84 Element Found and now performing Click 
+2025-04-27 20:32:20 [TestNG-test-UI Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibleText::96 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
+2025-04-27 20:32:20 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.MyAccountPage::getVisibleText::96 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
+2025-04-27 20:32:20 [TestNG-test-UI Automation Test-3] ERROR com.ui.listeners.TestListener::onTestFailure::39 LoginTest.loginTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@2796aeae] FAILED 
+2025-04-27 20:32:20 [TestNG-test-UI Automation Test-3] ERROR com.ui.listeners.TestListener::onTestFailure::40 no such element: Unable to locate element: {"method":"css selector","selector":"a[title='View my customer account'] span"}
+  (Session info: chrome=135.0.7049.115)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5da04dd4c79f91effbceff923c500249, findElement {value=a[title='View my customer account'] span, using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\SRAVAN~1.TAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50582}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50582/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5da04dd4c79f91effbceff923c500249 
-2025-04-20 20:35:47 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::goToWebSite::64 Visiting the website http://automationpractice.pl 
-2025-04-20 20:35:53 [TestNG-test-UI Automation Test-3] INFO com.ui.tests.LoginTest::setUp::27 Load the Homepage of the website 
-2025-04-20 20:35:53 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::25 loginTest 
-2025-04-20 20:35:53 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies that the valid user is able to login into the application 
-2025-04-20 20:35:53 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
-2025-04-20 20:35:53 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
-2025-04-20 20:35:53 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::clickOn::74 Finding element with the locatorBy.cssSelector: .login 
-2025-04-20 20:35:53 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::clickOn::76 Element Found and now performing Click 
-2025-04-20 20:35:54 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #email 
-2025-04-20 20:35:54 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text sravani@gmail.com 
-2025-04-20 20:35:54 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #passwd 
-2025-04-20 20:35:54 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text password 
-2025-04-20 20:35:54 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::74 Finding element with the locatorBy.cssSelector: #SubmitLogin 
-2025-04-20 20:35:54 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::76 Element Found and now performing Click 
-2025-04-20 20:35:54 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.MyAccountPage::getVisibleText::88 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
-2025-04-20 20:35:55 [TestNG-test-UI Automation Test-3] ERROR com.ui.listeners.TestListener::onTestFailure::37 LoginTest.loginTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@172b013] FAILED 
-2025-04-20 20:35:55 [TestNG-test-UI Automation Test-3] ERROR com.ui.listeners.TestListener::onTestFailure::38 no such element: Unable to locate element: {"method":"css selector","selector":"a[title='View my customer account'] span"}
-  (Session info: chrome=135.0.7049.96)
+Command: [bb77d574d88a0d60d9a9ccee950e6bc8, findElement {using=css selector, value=a[title='View my customer account'] span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\SRAVAN~1.TAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51734}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51734/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb77d574d88a0d60d9a9ccee950e6bc8 
+2025-04-27 20:32:20 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestFailure::47 Capturing Screenshot for the failed tests 
+2025-04-27 20:32:20 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestFailure::50 Attaching the Screenshot to the HTML File 
+2025-04-27 20:32:20 [TestNG-test-UI Automation Test-3] INFO com.ui.tests.LoginTest::setUp::19 Load the Homepage of the website 
+2025-04-27 20:32:20 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::<init>::52 Launching the Browser for CHROME 
+2025-04-27 20:32:20 [TestNG-test-UI Automation Test-1] ERROR com.ui.listeners.TestListener::onTestFailure::39 LoginTest.loginCSVTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@2796aeae] FAILED 
+2025-04-27 20:32:20 [TestNG-test-UI Automation Test-1] ERROR com.ui.listeners.TestListener::onTestFailure::40 no such element: Unable to locate element: {"method":"css selector","selector":"a[title='View my customer account'] span"}
+  (Session info: chrome=135.0.7049.115)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2f25c72b0cedb179e02dd04f354b4dff, findElement {value=a[title='View my customer account'] span, using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\SRAVAN~1.TAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50672/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2f25c72b0cedb179e02dd04f354b4dff 
-2025-04-20 20:35:55 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::<init>::44 Launching the Browser for CHROME 
-2025-04-20 20:35:58 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::goToWebSite::64 Visiting the website http://automationpractice.pl 
-2025-04-20 20:36:04 [TestNG-test-UI Automation Test-3] INFO com.ui.tests.LoginTest::setUp::27 Load the Homepage of the website 
-2025-04-20 20:36:04 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::25 loginTest 
-2025-04-20 20:36:04 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies that the valid user is able to login into the application 
-2025-04-20 20:36:04 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
-2025-04-20 20:36:04 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
-2025-04-20 20:36:04 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::clickOn::74 Finding element with the locatorBy.cssSelector: .login 
-2025-04-20 20:36:04 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::clickOn::76 Element Found and now performing Click 
-2025-04-20 20:36:05 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #email 
-2025-04-20 20:36:05 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text ropixet623@gamebcs.com 
-2025-04-20 20:36:06 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::81 Finding element with the locatorBy.cssSelector: #passwd 
-2025-04-20 20:36:06 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::83 Element Found and now enter text password 
-2025-04-20 20:36:06 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::74 Finding element with the locatorBy.cssSelector: #SubmitLogin 
-2025-04-20 20:36:06 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::76 Element Found and now performing Click 
-2025-04-20 20:36:07 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.MyAccountPage::getVisibleText::88 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
-2025-04-20 20:36:07 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.MyAccountPage::getVisibleText::90 Element Found and now retruning the visible text Sravani T 
-2025-04-20 20:36:07 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestSuccess::32 LoginTest.loginTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@172b013] PASSED 
-2025-04-20 20:36:07 [main] INFO com.ui.listeners.TestListener::onFinish::54 Test Suite Completed 
+Command: [d586b6704eddf0e656b632b7d1371c54, findElement {using=css selector, value=a[title='View my customer account'] span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\SRAVAN~1.TAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d586b6704eddf0e656b632b7d1371c54 
+2025-04-27 20:32:20 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestFailure::47 Capturing Screenshot for the failed tests 
+2025-04-27 20:32:20 [TestNG-test-UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestFailure::50 Attaching the Screenshot to the HTML File 
+2025-04-27 20:32:22 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::goToWebSite::72 Visiting the website http://automationpractice.pl 
+2025-04-27 20:32:31 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::27 loginTest 
+2025-04-27 20:32:31 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::28 Verifies that the valid user is able to login into the application 
+2025-04-27 20:32:31 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestStart::29 [e2e, sanity] 
+2025-04-27 20:32:31 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::gotoLoginPage::35 Trying to perform click to go to Sign in page 
+2025-04-27 20:32:31 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::clickOn::82 Finding element with the locatorBy.cssSelector: .login 
+2025-04-27 20:32:31 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.HomePage::clickOn::84 Element Found and now performing Click 
+2025-04-27 20:32:32 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::89 Finding element with the locatorBy.cssSelector: #email 
+2025-04-27 20:32:32 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::91 Element Found and now enter text ropixet623@gamebcs.com 
+2025-04-27 20:32:32 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::89 Finding element with the locatorBy.cssSelector: #passwd 
+2025-04-27 20:32:32 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::enterText::91 Element Found and now enter text password 
+2025-04-27 20:32:32 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::82 Finding element with the locatorBy.cssSelector: #SubmitLogin 
+2025-04-27 20:32:32 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.LoginPage::clickOn::84 Element Found and now performing Click 
+2025-04-27 20:32:32 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.MyAccountPage::getVisibleText::96 Finding element with the locatorBy.cssSelector: a[title='View my customer account'] span 
+2025-04-27 20:32:33 [TestNG-test-UI Automation Test-3] INFO com.ui.pages.MyAccountPage::getVisibleText::98 Element Found and now retruning the visible text Sravani T 
+2025-04-27 20:32:33 [TestNG-test-UI Automation Test-3] INFO com.ui.listeners.TestListener::onTestSuccess::34 LoginTest.loginTest(com.ui.pojos.User)[pri:0, instance:com.ui.tests.LoginTest@2796aeae] PASSED 
