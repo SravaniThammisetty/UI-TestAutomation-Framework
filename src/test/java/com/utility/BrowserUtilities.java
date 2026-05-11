@@ -101,6 +101,7 @@ public abstract class BrowserUtilities {
     
     public void quitBrowser() {
         driver.get().quit();
+		driver.remove();
     }
     
     public String takeScreenShot(String name) {
